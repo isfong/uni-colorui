@@ -78,5 +78,22 @@
     "setting": {
       "urlCheck": false
     }
+  },
+  "h5": {
+    "template": "template.h5.html",
+    "router": {
+      "base": "/h5/"
+    },
+    "devServer": {
+      "port": 5200,
+      "disableHostCheck": true,
+      "proxy": {
+        "/users": {
+          "target": "http://localhost:8080",
+          "changeOrigin": true,
+          "secure": false
+        }
+      }
+    }
   }
 }

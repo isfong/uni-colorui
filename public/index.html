@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>
-            <%= htmlWebpackPlugin.options.title %>
-        </title>
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
-            })
-            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
-            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
-        </script>
-        <link rel="stylesheet" href="<%= BASE_URL %>static/index.css" />
-    </head>
-
-    <body>
-        <noscript>
-            <strong>Please enable JavaScript to continue.</strong>
-        </noscript>
-        <div id="app"></div>
-        <!-- built files will be auto injected -->
-    </body>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ColorUI组件库</title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <script type="text/javascript">
+        if ( navigator.userAgent.match(
+            /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i
+        ) ) {
+            window.location.href = "/h5"
+        }
+    </script>
+</head>
+<body>
+<div class="mockups">
+    <!--suppress HtmlUnknownTarget -->
+    <iframe src="/h5" width="375" height="667"></iframe>
+</div>
+</body>
 </html>
