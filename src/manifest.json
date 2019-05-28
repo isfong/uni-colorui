@@ -82,7 +82,8 @@
   "h5": {
     "template": "template.h5.html",
     "router": {
-      "base": "/h5/"
+      "base": "/h5",
+      "mode": "hash"
     },
     "devServer": {
       "port": 5200,
