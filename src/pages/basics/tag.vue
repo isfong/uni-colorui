@@ -1,7 +1,9 @@
 <!--suppress ALL -->
 <template>
 	<view>
-		<cu-custom bgColor="bg-gradual-blue" :isBack="true"><block slot="backText">返回</block><block slot="content">标签</block></cu-custom>
+		<cu-custom bgColor="bg-gradual-blue" :isBack="true">
+			<block slot="backText">返回</block>
+			<block slot="content">标签</block></cu-custom>
 		<view class="cu-bar bg-white solid-bottom">
 			<view class='action'>
 				<text class='cuIcon-title text-blue'></text>标签形状
@@ -28,10 +30,10 @@
 			</view>
 		</view>
 		<view class='padding-sm flex flex-wrap'>
-			<view class="padding-xs" v-for="(item,index) in ColorList" :key="index" v-if="item.name!='gray'">
+			<view class="padding-xs" v-for="(item,index) in ColorList" :key="index" v-if="item.name!=='gray'">
 				<view class='cu-tag' :class="'bg-' + item.name">{{item.title}}</view>
 			</view>
-			<view class="padding-xs" v-for="(item,index) in ColorList" :key="index" v-if="item.name!='gray' && item.name!='black' && item.name!='white'">
+			<view class="padding-xs" v-for="(item,index) in ColorList" :key="(index+1) * 20" v-if="item.name!=='gray' && item.name!=='black' && item.name!=='white'">
 				<view class='cu-tag light' :class="'bg-' + item.name">{{item.title}}</view>
 			</view>
 		</view>
@@ -41,7 +43,7 @@
 			</view>
 		</view>
 		<view class='padding-sm flex flex-wrap'>
-			<view class="padding-xs" v-for="(item,index) in ColorList" :key="index" v-if="item.name!='white'">
+			<view class="padding-xs" v-for="(item,index) in ColorList" :key="(index+1) * 200" v-if="item.name!=='white'">
 				<view class='cu-tag' :class="'line-' + item.name">{{item.title}}</view>
 			</view>
 		</view>

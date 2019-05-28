@@ -30,11 +30,12 @@
                 }
             } );
 
-            Vue.prototype.ColorList = [ {
-                title: '嫣红',
-                name: 'red',
-                color: '#e54d42'
-            },
+            Vue.prototype.ColorList = [
+                {
+                    title: '嫣红',
+                    name: 'red',
+                    color: '#e54d42'
+                },
                 {
                     title: '桔橙',
                     name: 'orange',
