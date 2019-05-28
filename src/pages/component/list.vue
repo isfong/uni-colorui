@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <template>
 	<view>
 		<scroll-view :scroll-y="modalName==null" class="page" :class="modalName!=null?'show':''">

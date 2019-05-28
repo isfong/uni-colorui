@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <template>
     <view>
         <basics v-if="PageCur==='basics'"></basics>

@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <template>
 	<view>
 		<cu-custom bgColor="bg-gradual-blue" :isBack="true"><block slot="backText">返回</block><block slot="content">按钮</block></cu-custom>
@@ -80,7 +81,7 @@
 			</view>
 		</view>
 		<view class="padding">
-			<button class="cu-btn block bg-blue margin-tb-sm lg" disabled type="">无效状态</button>
+			<button class="cu-btn block bg-blue margin-tb-sm lg" disabled>无效状态</button>
 			<button class="cu-btn block line-blue margin-tb-sm lg" disabled>无效状态</button>
 		</view>
 		<view class="cu-bar margin-top bg-white">

@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <template>
 	<view>
 		<cu-custom bgImage="https://image.weilanwl.com/color2.0/plugin/sylb2244.jpg" :isBack="true"><block slot="backText">返回</block>
@@ -6,7 +7,7 @@
 		<view class="cu-bar bg-white search fixed" :style="[{top:CustomBar + 'px'}]">
 			<view class="search-form round">
 				<text class="cuIcon-search"></text>
-				<input type="text" placeholder="输入搜索的关键词" confirm-type="search"></input>
+				<input type="text" placeholder="输入搜索的关键词" confirm-type="search"/>
 			</view>
 			<view class="action">
 				<button class="cu-btn bg-gradual-green shadow-blur round">搜索</button>

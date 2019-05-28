@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <template name="components">
     <view>
         <scroll-view scroll-y class="page">

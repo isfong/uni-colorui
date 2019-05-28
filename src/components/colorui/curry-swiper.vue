@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <template>
   <view class="carousel-3d-container" :style="{height: this.slideHeight + 'px'}">
     <view class="carousel-3d-slider" :style="{width: this.slideWidth + 'px', height: this.slideHeight + 'px'}">
@@ -9,7 +10,7 @@
 <script>
 /* eslint-disable */
   const noop = () => {
-  }
+  };
   export default {
     name: 'curry-swiper',
     props: {

@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <template>
 	<view>
 		<cu-custom bgColor="bg-gradual-blue" :isBack="true">
@@ -105,7 +106,7 @@
 				</cover-view>
 			</cover-view>
 		</view> -->
-		
+
 		<view class="cu-bar bg-white margin-top">
 			<view class="action">
 				<text class="cuIcon-title text-blue"></text>透明背景(文字层)

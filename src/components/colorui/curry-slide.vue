@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <template>
   <view class="carousel-3d-slide" :style="slideStyle" :class="computedClasses" @click="goTo()">
     <slot :index="index" :isCurrent="isCurrent" :leftIndex="leftIndex" :rightIndex="rightIndex"/>

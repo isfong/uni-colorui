@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <template>
 	<view>
 		<cu-custom bgColor="bg-gradual-pink" :isBack="true"><block slot="backText">返回</block><block slot="content">操作条</block></cu-custom>
@@ -331,7 +332,7 @@
 				</view>
 			</view>
 			<view class="cu-bar search bg-white">
-				<view class="cu-avatar round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big11010.jpg"></view>
+				<view class="cu-avatar round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big11010.jpg)"></view>
 				<view class="search-form round">
 					<text class="cuIcon-search"></text>
 					<input @focus="InputFocus" @blur="InputBlur" :adjust-position="false" type="text" placeholder="搜索图片、文章、视频" confirm-type="search"></input>

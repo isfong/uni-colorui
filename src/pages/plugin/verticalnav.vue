@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <template>
 	<view>
 		<view class="fixed">
@@ -146,7 +147,7 @@
 			},
 			VerticalMain(e) {
 				// #ifdef MP-ALIPAY
-				   return false  //支付宝小程序暂时不支持双向联动 
+				   return false  //支付宝小程序暂时不支持双向联动
 				// #endif
 				let that = this;
 				let tabHeight = 0;

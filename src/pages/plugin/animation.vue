@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <template>
     <view>
         <cu-custom bgImage="https://image.weilanwl.com/color2.0/plugin/wdh2236.jpg" :isBack="true">

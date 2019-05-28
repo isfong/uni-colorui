@@ -1,3 +1,4 @@
+<!--suppress JSUnusedGlobalSymbols, JSUnresolvedFunction, JSUnresolvedVariable -->
 <script>
     import Vue from 'vue'
 

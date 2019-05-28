@@ -1,4 +1,4 @@
-<!--suppress HtmlUnknownTag, HtmlUnknownAttribute -->
+<!--suppress ALL -->
 <template>
     <view>
         <cu-custom bgColor="bg-gradual-pink" :isBack="true">

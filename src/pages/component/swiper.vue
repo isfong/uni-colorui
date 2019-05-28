@@ -1,4 +1,4 @@
-<!--suppress JSCheckFunctionSignatures, HtmlUnknownAttribute, HtmlDeprecatedTag, HtmlUnknownTag, RedundantConditionalExpressionJS -->
+<!--suppress ALL -->
 <template>
     <view>
         <cu-custom bgColor="bg-gradual-pink" :isBack="true">

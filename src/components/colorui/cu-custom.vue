@@ -1,3 +1,4 @@
+<!--suppress ALL -->
 <template>
 	<view>
 		<view class="cu-custom" :style="[{height:CustomBar + 'px'}]">
