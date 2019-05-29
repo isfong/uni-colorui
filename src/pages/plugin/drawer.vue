@@ -26,7 +26,7 @@
 			</view>
 		</scroll-view>
 		<view class="DrawerClose" :class="modalName=='viewModal'?'show':''" @tap="hideModal">
-			<text class="cuIcon-pullright"></text>
+			<text class="cuIcon-pullright">sss</text>
 		</view>
 		<scroll-view scroll-y class="DrawerWindow" :class="modalName=='viewModal'?'show':''">
 			<view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg">
