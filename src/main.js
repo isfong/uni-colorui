@@ -8,13 +8,12 @@ import basics     from './pages/basics/home.vue'
 import cuCustom   from './components/colorui/cu-custom.vue'
 
 Vue.config.productionTip = false;
-Vue.prototype.$store = store;
-Vue.prototype.$http = http;
+Vue.prototype[ '$store' ] = store;
+Vue.prototype[ '$http' ] = http;
 Vue.component( 'basics', basics );
 Vue.component( 'components', components );
 Vue.component( 'plugin', plugin );
 Vue.component( 'cu-custom', cuCustom );
-
 App.mpType = 'app';
 
 const app = new Vue( {
